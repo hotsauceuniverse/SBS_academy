@@ -20,7 +20,8 @@ public class Ex04 {
 		int c = 60;
 		
 		int total = a+b+c;
-		System.out.println("평균점수 : " + total / 3);
+//		강제형변환(캐스팅)까지 완료
+		System.out.println("평균점수 : " + total / (double)3);
 		
 	}
 }
