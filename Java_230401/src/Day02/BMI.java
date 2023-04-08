@@ -1,24 +1,24 @@
 import java.util.Scanner;
 
-public class BMI {
+public class Ex06 {
 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		int height;
-		int weight;
+		double height;
+		double weight;
 		
 		System.out.println("------18.5------23------25------30-------");
 		System.out.println("-저체중------정상-----과체중----비만----고도비만-\n");
 		
 		System.out.print("키(cm)를 입력 하세요");
-		height = sc.nextInt();
+		height = sc.nextDouble();
 		
 		System.out.print("몸무게(kg)를 입력 하세요");
-		weight = sc.nextInt();
+		weight = sc.nextDouble();
 		
-		double a = height / (double)100;
+		double a = height / 100;
 
 		double BMI = weight / (a * a);
 		
